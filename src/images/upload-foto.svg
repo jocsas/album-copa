@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="52" viewBox="0 0 200 52">
+  <g id="Grupo_487" data-name="Grupo 487" transform="translate(-745 -804)">
+    <path id="Retângulo_2" data-name="Retângulo 2" d="M0,0H147a2,2,0,0,1,2,2V50a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(796 804)" fill="#d0bd5b"/>
+    <text id="Upload_foto" data-name="Upload foto" transform="translate(870 838)" fill="#8e1537" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-62.187" y="0">Upload foto</tspan></text>
+    <path id="Retângulo_4" data-name="Retângulo 4" d="M2,0H51a0,0,0,0,1,0,0V52a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(745 804)" fill="#8e1537"/>
+    <g id="_icons" transform="translate(753.826 813.321)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(4 4.025)">
+        <path id="Caminho_3" data-name="Caminho 3" d="M9.693,13.016l3.644-3.644v12.04A1.5,1.5,0,0,0,14.921,23a1.5,1.5,0,0,0,1.584-1.584V9.372l3.644,3.644a1.531,1.531,0,0,0,2.218,0,1.531,1.531,0,0,0,0-2.218L16.03,4.461c-.158-.158-.317-.317-.475-.317a1.735,1.735,0,0,0-1.267,0c-.158.158-.317.158-.475.317L7.475,10.8a1.568,1.568,0,1,0,2.218,2.218Z" transform="translate(-2.247 -4.025)" fill="#fff"/>
+        <path id="Caminho_4" data-name="Caminho 4" d="M27.764,13a1.5,1.5,0,0,0-1.584,1.584v3.168a3.178,3.178,0,0,1-3.168,3.168H10.337a3.178,3.178,0,0,1-3.168-3.168V14.584A1.5,1.5,0,0,0,5.584,13,1.5,1.5,0,0,0,4,14.584v3.168a6.356,6.356,0,0,0,6.337,6.337H23.011a6.356,6.356,0,0,0,6.337-6.337V14.584A1.5,1.5,0,0,0,27.764,13Z" transform="translate(-4 1.219)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

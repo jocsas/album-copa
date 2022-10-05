@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="187" height="52" viewBox="0 0 187 52">
+  <g id="Grupo_486" data-name="Grupo 486" transform="translate(-975 -844)">
+    <path id="Retângulo_5" data-name="Retângulo 5" d="M0,0H134a2,2,0,0,1,2,2V50a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1026 844)" fill="#d0bd5b"/>
+    <text id="Imprimir" transform="translate(1088 878)" fill="#8e1537" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-45.509" y="0">Imprimir</tspan></text>
+    <path id="Retângulo_6" data-name="Retângulo 6" d="M2,0H51a0,0,0,0,1,0,0V52a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(975 844)" fill="#8e1537"/>
+    <g id="_icons" transform="translate(986 855)">
+      <path id="Caminho_2" data-name="Caminho 2" d="M25.2,10.7H23.75V4.9A2.909,2.909,0,0,0,20.85,2h-8.7a2.909,2.909,0,0,0-2.9,2.9v5.8H7.8A5.817,5.817,0,0,0,2,16.5v2.9a5.817,5.817,0,0,0,5.8,5.8H9.25v1.45A4.272,4.272,0,0,0,13.6,31h5.8a4.272,4.272,0,0,0,4.35-4.35V25.2H25.2A5.817,5.817,0,0,0,31,19.4V16.5A5.817,5.817,0,0,0,25.2,10.7ZM12.15,4.9h8.7v5.8h-8.7Zm8.7,21.75A1.37,1.37,0,0,1,19.4,28.1H13.6a1.37,1.37,0,0,1-1.45-1.45v-5.8h8.7v5.8ZM28.1,19.4a2.909,2.909,0,0,1-2.9,2.9H23.75V20.85a1.45,1.45,0,1,0,0-2.9H9.25a1.45,1.45,0,1,0,0,2.9V22.3H7.8a2.909,2.909,0,0,1-2.9-2.9V16.5a2.909,2.909,0,0,1,2.9-2.9H25.2a2.909,2.909,0,0,1,2.9,2.9Z" transform="translate(-2 -2)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

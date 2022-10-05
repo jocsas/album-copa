@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="187" height="52" viewBox="0 0 187 52">
+  <g id="Grupo_606" data-name="Grupo 606" transform="translate(-975 -844)">
+    <path id="Retângulo_5" data-name="Retângulo 5" d="M0,0H134a2,2,0,0,1,2,2V50a2,2,0,0,1-2,2H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(1026 844)" fill="#fff"/>
+    <text id="Template" transform="translate(1094 878)" fill="#8e1537" font-size="22" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-47.54" y="0">Template</tspan></text>
+    <path id="Retângulo_6" data-name="Retângulo 6" d="M2,0H51a0,0,0,0,1,0,0V52a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" transform="translate(975 844)" fill="#8e1537"/>
+    <g id="Retângulo_119" data-name="Retângulo 119" transform="translate(985 855)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2.5">
+      <rect width="31" height="31" stroke="none"/>
+      <rect x="1.25" y="1.25" width="28.5" height="28.5" fill="none"/>
+    </g>
+    <g id="Retângulo_120" data-name="Retângulo 120" transform="translate(995 865)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2.5">
+      <rect width="21" height="21" stroke="none"/>
+      <rect x="1.25" y="1.25" width="18.5" height="18.5" fill="none"/>
+    </g>
+    <g id="Retângulo_121" data-name="Retângulo 121" transform="translate(985 865)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2.5">
+      <rect width="12" height="21" stroke="none"/>
+      <rect x="1.25" y="1.25" width="9.5" height="18.5" fill="none"/>
+    </g>
+  </g>
+</svg>
