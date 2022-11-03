@@ -50,12 +50,23 @@ main {
   margin: 0 auto;
 }
 
+.hide {
+  display: none !important;
+}
+
+.blocked {
+  pointer-events: none;
+  opacity: .5;
+}
+
 .wrapper {
   display: flex;
   gap: 20px;
   max-width: 850px;
   width: 100%;
   margin: 50px auto 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* .wrapper p {
@@ -79,6 +90,23 @@ main {
   display: flex;
 }
 
+.upload-foto-button {
+  background-image: url('./images/upload-foto.svg');
+  width: 200px;
+  height: 52px;
+}
+
+.save-foto-button {
+  background: url('./images/save.svg') center no-repeat;
+  width: 200px;
+  height: 52px;
+  margin-top: 50px;
+}
+
+label[for="foto"] {
+  margin-bottom: 25px;
+}
+
 input {
   height: 50px;
   margin-bottom: 20px;
@@ -90,17 +118,34 @@ input {
   padding: 10px 16px;
   border-radius: 2px;
   width: 394px;
-}
-
-.select {
-  width: 394px;
-  background-color: red;
-  height: 50px;
-  border-radius: 2px;
-  margin-bottom: 20px;
+  border: none;
 }
 
 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 394px;
+  height: 50px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 22px;
+  text-align: left;
+  color: #bfbfbf;
+  /* color: #8e1537; */
+  background: url(images/seta-select.svg) no-repeat white;
+  background-position-x: 95%;
+  background-position-y: center;
+}
+
+select:focus {
+  color: #8e1537;
+}
+
+/* select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -113,7 +158,7 @@ select {
   text-align: left;
   color: #8e1537;
   margin-bottom: 20px;
-}
+} */
 
 .wrapper-buttons,
 .input-wrapper {
@@ -131,13 +176,15 @@ button {
   cursor: pointer;
 }
 
-.ad-wrapper {
+.ad-wrapper-test {
   width: 100%;
   text-align: center;
+  display: block !important;
 }
 
-.adPlaceholder {
+.anuncioPlaceholder {
   margin: 100px auto;
+  display: block !important;
 }
 
 .wrapper-share {
@@ -154,7 +201,13 @@ footer {
 
 .image-render {
   position: relative;
-
+  width: 427px;
+  height: 550px;
+}
+.image-render2 {
+  position: relative;
+  width: 427px;
+  height: 550px;
 }
 
 .nameUser {
@@ -169,6 +222,7 @@ footer {
   right: 0;
   top: 436px;
   margin: 0 auto;
+  z-index: 30;
 }
 
 .dateUser {
@@ -182,21 +236,23 @@ footer {
   left: 0;
   right: 0;
   top: 473px;
+  z-index: 30;
   margin: 0 auto;
 }
 
 .heightUser {
-font-family: 'Qatar2022 Arabic';
-font-weight: normal;
-font-size: 18px;
-line-height: 17px;
-text-align: center;
-color: #fff;
-position: absolute;
-left: 215px;
-right: 0;
-margin: 0 auto;
-top: 204px;
+  font-family: 'Qatar2022 Arabic';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  left: 215px;
+  right: 0;
+  margin: 0 auto;
+  z-index: 10;
+  top: 204px;
 }
 
 .weightUser {
@@ -211,17 +267,225 @@ top: 204px;
   right: 0;
   margin: 0 auto;
   top: 204px;
-  }
+  z-index: 10;
+}
 
-  .positionWrapper {
-    position: absolute;
-    top: 156px;
-    left: 0;
-    right: 253px;
-    margin: 0 auto;
-    width: 41.95px;
-    height: 66.18px;
-  }
-  .positionWrapper .positionBackground {
-    width: 100%;
-  }
+.positionWrapper {
+  position: absolute;
+  top: 156px;
+  left: 0;
+  right: 253px;
+  margin: 0 auto;
+  width: 41.95px;
+  height: 66.18px;
+}
+
+.positionWrapper .positionBackground {
+  width: 100%;
+}
+
+.country p {
+  font-family: Qatar2022 Arabic;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #92133a;
+  position: absolute;
+  left: 250.7px;
+  right: 0;
+  margin: 0 auto;
+  top: 54.3px;
+}
+
+.conteudo-secundario {
+  z-index: -9999;
+  position: absolute;
+  
+}
+.image-render2 {
+  border: 1px solid black;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box; 
+}
+.userImageWrapper {
+  height: 346px;
+  width: 273px;
+  position: absolute;
+}
+
+.userImage, .userImageFinal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 80px;
+  /* filter: drop-shadow(5px 0 0px white) drop-shadow(-5px -0 0 white) drop-shadow(5px -5px 5px black); */
+  z-index: 0;
+  max-width: 273.57px;
+  max-height: 381.17px;
+  width: 100%;
+  height: 100%;
+}
+
+.imageToRender::before {
+  content: '';
+  position: absolute;
+  background: url('../src/images/back-titulo.svg') center no-repeat;
+  width: 100%;
+  height: 100%;
+  top: 184px;
+  z-index: 30;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #8E1537;
+  position: fixed;
+  z-index: 100;
+}
+
+.container-cropper {
+  height: 90%;
+  padding: 10px;
+  text-align: center;
+}
+
+.cropper {
+  height: 90%;
+  position: relative;
+}
+
+.slider {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+}
+
+.container-buttons {
+  border: 1px solid #f5f5f5;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonEscolher {
+  width: 100px;
+  height: 40px;
+  background-color: #D0BD5B;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #8e1537;
+  border: 2px solid black;
+  margin-right: 20px;
+}
+
+.buttonConfimar {
+  width: 100px;
+  height: 40px;
+  background-color: #2fbf72;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  border: 2px solid black;
+}
+
+.country-img {
+  position: absolute;
+  width: 60px;
+  height: 61px;
+  top: 70px;
+  left: 251px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.container p {
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.container-cropper a {
+  color: #D0BD5B;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 40;
+  background: url('./images/placeholder.png') center no-repeat;
+  background-size: cover;
+}
+
+.resultado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.resultado p {
+  margin-top: 50px;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.locker {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+
+.image-render:after {
+  content: '';
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+
+.image-render:before {
+  content: '';
+  position: absolute;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+
+.save-foto-button {
+  display: none;
+}
+
+.ajosdjaosidjaso12ij3o1i2j3o1i2h3oi12jh3oi1h231oi2h3o12h3o1i23h1oi23ho1i2h3oi12h31i23ho1i2h3o1i2h31i2h3o1i23ho1i2h3oi1h23oi1h2o3ih12oi3h1oi23h1oi2h3123kj12bn3kj1b23kjhb12jhv31gh2c3hfg1c23gfx12gf3xg21f3c1hg2v3ljh12vb3ljh12b3i1u23ou12y3tu132tyu1rt2y3tr13ytdf1t23c12gh3vk123vjl123j12h3bjl1h2b3h1l2j3bg123yu12g3 {
+  display: block !important;
+}
